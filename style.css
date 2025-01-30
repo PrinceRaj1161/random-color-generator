@@ -1,0 +1,43 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.btn
+{
+    display: inline;
+    background: black;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: aquamarine;
+    border-radius: 10px;
+    margin-top: 30%;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background-color: rgb(56, 10, 10);
+    color: blanchedalmond;
+}
+
+.container
+{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    
+}
+
+.code 
+{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size: 2rem;
+}
